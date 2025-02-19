@@ -49,7 +49,8 @@ namespace formPrincipal
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-
+            formPrincipal principal = new formPrincipal();
+            principal.ShowDialog();
         }
     }
 }

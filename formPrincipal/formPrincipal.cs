@@ -16,5 +16,12 @@ namespace formPrincipal
         {
             InitializeComponent();
         }
+
+        private void formPrincipal_Load(object sender, EventArgs e)
+        {
+            formLogin login = new formLogin();
+            login.Close();
+
+        }
     }
 }
