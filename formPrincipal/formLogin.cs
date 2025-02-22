@@ -62,7 +62,7 @@ namespace formPrincipal
             }
             else 
             {
-                MessageBox.Show("Usuario y/o clave incorrecta")
+                MessageBox.Show("Usuario y/o clave incorrecta");
             }
 
 
