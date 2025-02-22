@@ -7,8 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
-
+using Dominio;
 
 namespace formPrincipal
 {
@@ -51,8 +50,22 @@ namespace formPrincipal
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            DataTable tablaLogin = new DataTable();
-            Datos.Usuarios
+            UsuarioNegocio usuarioNegocio = new UsuarioNegocio();
+            DataTable tablaLogin = usuarioNegocio.loginUsuario(txtUsuario.Text, txtClave.Text);
+
+            if (tablaLogin.Rows.Count > 0)
+            {
+                MessageBox.Show("Ingreso exitoso");
+                this.Hide();
+                formPrincipal formPrincipal = new formPrincipal();
+                formPrincipal.Show();
+            }
+            else 
+            {
+                MessageBox.Show("Usuario y/o clave incorrecta")
+            }
+
+
         }
     }
 }
