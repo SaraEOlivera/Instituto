@@ -45,11 +45,5 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Usuarios.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\formPrincipal\Presentacion.csproj">
-      <Project>{2a3d6a64-0c03-4eeb-a288-c91b19c386c2}</Project>
-      <Name>Presentacion</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

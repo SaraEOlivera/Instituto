@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 
 namespace formPrincipal
@@ -50,8 +51,8 @@ namespace formPrincipal
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            formPrincipal principal = new formPrincipal();
-            principal.ShowDialog();
+            DataTable tablaLogin = new DataTable();
+            Datos.Usuarios
         }
     }
 }
