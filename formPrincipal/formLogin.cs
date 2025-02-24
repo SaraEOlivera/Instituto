@@ -67,5 +67,15 @@ namespace formPrincipal
 
 
         }
+
+        private void formLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void formLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
