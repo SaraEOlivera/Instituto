@@ -19,7 +19,7 @@ namespace Datos
             {
                 conexion = Conexion.getInstancia().crearConexion();
 
-                SqlCommand comando = new SqlCommand("IngresoLogin", conexion);
+                SqlCommand comando = new SqlCommand("spIngresoLogin", conexion);
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.Add("@Usu", SqlDbType.VarChar).Value = L_Usu;
                 comando.Parameters.Add("@Pass", SqlDbType.VarChar).Value = P_Usu;

@@ -31,8 +31,7 @@ namespace Datos
             SqlConnection cadena = new SqlConnection();
             try
             {
-                cadena.ConnectionString = $"Server =   { this.servidor};  Database = {this.baseDatos}; User Id = {this.usuario} ; Password = {this.clave};";
-
+                cadena.ConnectionString = "server = .\\SQLEXPRESS; database = Instituto_DB; integrated security = true";
             }
             catch (Exception ex)
             {

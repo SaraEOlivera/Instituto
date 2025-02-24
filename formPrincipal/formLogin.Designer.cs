@@ -41,7 +41,7 @@
             this.btnIngresar.Location = new System.Drawing.Point(270, 159);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(215, 38);
-            this.btnIngresar.TabIndex = 0;
+            this.btnIngresar.TabIndex = 2;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
@@ -60,7 +60,7 @@
             this.txtClave.Location = new System.Drawing.Point(270, 77);
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(215, 26);
-            this.txtClave.TabIndex = 2;
+            this.txtClave.TabIndex = 1;
             this.txtClave.Text = "Contraseña";
             this.txtClave.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtClave.Enter += new System.EventHandler(this.txtClave_Enter);
@@ -72,7 +72,7 @@
             this.txtUsuario.Location = new System.Drawing.Point(270, 25);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(215, 26);
-            this.txtUsuario.TabIndex = 3;
+            this.txtUsuario.TabIndex = 0;
             this.txtUsuario.Text = "Usuario";
             this.txtUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
