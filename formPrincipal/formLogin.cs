@@ -56,16 +56,16 @@ namespace formPrincipal
             if (tablaLogin.Rows.Count > 0)
             {
                 MessageBox.Show("Ingreso exitoso");
-                this.Hide();
                 formPrincipal formPrincipal = new formPrincipal();
+                formPrincipal.rol = Convert.ToString(tablaLogin.Rows[0][0]);
+                formPrincipal.usuario = Convert.ToString(txtUsuario.Text);
                 formPrincipal.Show();
+                this.Hide();
             }
             else 
             {
                 MessageBox.Show("Usuario y/o clave incorrecta");
             }
-
-
         }
 
         private void formLogin_Load(object sender, EventArgs e)

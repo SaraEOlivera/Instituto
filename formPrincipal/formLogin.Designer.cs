@@ -48,16 +48,16 @@
             // 
             // pbxImagenLogin
             // 
-            this.pbxImagenLogin.Location = new System.Drawing.Point(27, 25);
+            this.pbxImagenLogin.Location = new System.Drawing.Point(12, 29);
             this.pbxImagenLogin.Name = "pbxImagenLogin";
-            this.pbxImagenLogin.Size = new System.Drawing.Size(224, 172);
+            this.pbxImagenLogin.Size = new System.Drawing.Size(239, 168);
             this.pbxImagenLogin.TabIndex = 1;
             this.pbxImagenLogin.TabStop = false;
             // 
             // txtClave
             // 
             this.txtClave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtClave.Location = new System.Drawing.Point(270, 77);
+            this.txtClave.Location = new System.Drawing.Point(270, 80);
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(215, 26);
             this.txtClave.TabIndex = 1;
@@ -69,7 +69,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(270, 25);
+            this.txtUsuario.Location = new System.Drawing.Point(270, 29);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(215, 26);
             this.txtUsuario.TabIndex = 0;

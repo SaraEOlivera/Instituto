@@ -33,6 +33,7 @@
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.btnAsignar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.lblIngreso = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnInscribir
@@ -84,12 +85,22 @@
             this.btnSalir.TabIndex = 4;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // lblIngreso
+            // 
+            this.lblIngreso.AutoSize = true;
+            this.lblIngreso.Location = new System.Drawing.Point(56, 13);
+            this.lblIngreso.Name = "lblIngreso";
+            this.lblIngreso.Size = new System.Drawing.Size(0, 13);
+            this.lblIngreso.TabIndex = 5;
             // 
             // formPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(567, 257);
+            this.Controls.Add(this.lblIngreso);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnAsignar);
             this.Controls.Add(this.btnConfirmar);
@@ -105,6 +116,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.formPrincipal_FormClosing);
             this.Load += new System.EventHandler(this.formPrincipal_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -115,5 +127,6 @@
         private System.Windows.Forms.Button btnConfirmar;
         private System.Windows.Forms.Button btnAsignar;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Label lblIngreso;
     }
 }
