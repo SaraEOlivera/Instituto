@@ -45,6 +45,7 @@
             this.btnInscribir.TabIndex = 0;
             this.btnInscribir.Text = "Inscribir Postulante";
             this.btnInscribir.UseVisualStyleBackColor = true;
+            this.btnInscribir.Click += new System.EventHandler(this.btnInscribir_Click);
             // 
             // btnComprobante
             // 
